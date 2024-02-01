@@ -15,11 +15,13 @@
  }
  .background-1{
     background-color: yellow;
+    border: 2px dashed black;
+
  }
  .col-3{
     display: flex;
     justify-content: center;
-    border: 1px dashed black;
+    border: 2px dashed black;
  }
 
  .row{
@@ -52,6 +54,8 @@
 }
 .background-2{
     background-color: pink;
+    border: 2px dashed black;
+
 }
 .row-2 {
     min-height: 300px;
@@ -95,7 +99,10 @@ background-color: lightgray;
 }
 .background-green{
     background-color: green;
+    border: 2px dashed black;
+
 }
+
 /*quadrato5*/
 .quadrato-6{
     padding: 30px;
@@ -115,14 +122,16 @@ background-color: lightgray;
  
 /*footer*/
 
-footer{background-color: black;
+footer{
+    background-color: black;
     border: 1px solid white;
 
 }
 
 
 .background-6{
-    background-color: aquamarine;}
+    background-color: aquamarine;
+}
 
 .col-logo{
     display: flex;
@@ -146,7 +155,7 @@ footer{background-color: black;
 /*debug*/
 
 .debug .container{
-    border: 2px dashed black;
+    
     padding: 5px;
 
 }
