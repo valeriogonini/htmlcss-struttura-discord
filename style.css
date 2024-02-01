@@ -113,6 +113,34 @@ background-color: lightgray;
 }
 
  
+/*footer*/
+
+footer{background-color: black;
+    border: 1px solid white;
+
+}
+
+
+.background-6{
+    background-color: aquamarine;}
+
+.col-logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    border: 1px dashed black;
+    background-color: pink;
+
+}
+.col-bottone{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    border: 1px dashed black;
+   background-color: pink;
+}
+
+ 
 
 
 /*debug*/
@@ -120,6 +148,7 @@ background-color: lightgray;
 .debug .container{
     border: 2px dashed black;
     padding: 5px;
+
 }
 .debug .row{
     padding: 5px;
