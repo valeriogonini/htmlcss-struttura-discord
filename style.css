@@ -46,7 +46,7 @@
 
 /*secondacolonna*/
 .quadrato-2{
-    padding: 30px;
+    padding: 20px;
     padding-left: 25%;
     padding-right: 25%;
     background-color: blue; 
@@ -92,6 +92,7 @@
 /*quadrato5*/
 .quadrato-5{
 background-color: lightgray;
+padding: 30px;
 
 }
 .row-5{
@@ -100,6 +101,7 @@ background-color: lightgray;
 .background-green{
     background-color: green;
     border: 2px dashed black;
+    
 
 }
 
