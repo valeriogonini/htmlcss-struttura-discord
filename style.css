@@ -16,7 +16,7 @@
  .background-1{
     background-color: yellow;
  }
- .col-1{
+ .col-3{
     display: flex;
     justify-content: center;
     border: 1px dashed black;
@@ -30,7 +30,7 @@
     display: flex;
    justify-content: space-around;
 }
-.col-1{
+.col-3{
    width: calc(100% / 3);
 }
 .flexlogo{
@@ -57,7 +57,34 @@
     min-height: 300px;
    
 }
-
+/*terzacolonna*/
+.quadrato-3{
+    padding: 30px;
+}
+.row-3{
+    min-height: 400px;
+}
+.col-60{
+    width: 60%;
+    background-color: blue;
+    border: 2px dashed black;
+}
+.col-40{
+    width: 40%;
+    background-color: pink;
+    border: 2px dashed black;
+    
+}
+/*quadrato4*/
+.quadrato-4{
+    background-color: lightgrey;
+  
+}
+.row-4{
+    min-height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+}
 
  
 
