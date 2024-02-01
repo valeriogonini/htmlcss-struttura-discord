@@ -7,6 +7,8 @@
     margin: 0 auto;
     max-width: 1000px;
  }
+/*prima colonna*/
+
  .header { 
     background-color: brown;
     padding: 10px;
@@ -40,12 +42,30 @@
     justify-content: flex-end;
 }
 
+/*secondacolonna*/
+.quadrato-2{
+    padding: 30px;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: blue; 
+    
+}
+.background-2{
+    background-color: pink;
+}
+.row-2 {
+    min-height: 300px;
+   
+}
 
 
- /*debug*/
+ 
+
+
+/*debug*/
 
 .debug .container{
-    border: 2px solid black;
+    border: 2px dashed black;
     padding: 5px;
 }
 .debug .row{
